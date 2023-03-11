@@ -1,0 +1,107 @@
+body {
+    background-color: rgb(98, 98, 98);
+    color: white;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 50px;
+}
+
+.button {
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: rgb(48, 48, 48); 
+    color: rgb(255, 255, 255); 
+    border: 2px solid #000000;
+}
+
+.button2 {
+    background-color: rgb(0, 110, 255); 
+    color: rgb(255, 255, 255); 
+    border: 2px solid #000000;
+}
+
+.button2:hover {
+    background-color: #002fff;
+    color: rgb(255, 255, 255);
+}
+  
+.button1:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+section {
+    text-align: center;
+}
+
+section {
+    text-align: center;
+    padding: 8%;
+}
+
+section {
+    display: block;
+}
+
+.par {
+    margin-top: 500px;
+    height: 650px;
+}
+
+footer {
+    font-family: 'Roboto Thin';
+    text-align: center;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: 0pt;
+    color: white;
+}
+
+footer {
+    display: block;
+}
+
+section nav {
+    font-family: 'Roboto Thin';
+    font-size: 36px;
+    line-height: 55px;
+    text-align: center;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section header {
+    margin-top: 0px;
+    font-family: 'Roboto Thin';
+    font-size: 62px;
+    margin-bottom: 20px;
+}
+
+.section2 nav {
+    font-family: 'Roboto Thin';
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
