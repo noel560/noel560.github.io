@@ -2,46 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Noel's website</title>
-    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imgs/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <img src="imgs/icon.png" class="aimg" onclick="functionimage()">
+    <div class="button button1 kamurokar" onclick="functioncontact()">CONTACT</div>
+    <div class="button button1 kamurokar" onclick="functiongames()">GAMES</div>
+    <div class="button button1 kamurokar" onclick="functionhome()">HOME</div>
+
     <section>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <h1>Developer, Animator</h1>
-        <a href="#middle">
-        <button class="button button1">Több</button>
-        </a>
-        </section>
-        <section class="par" id="middle">
-            <header>
-                Hello!
-            </header>
-            <nav>
-                Az én nevem Noel, 14 éves vagyok. <br>
-                Magyarországon élek, kedvenc ételem a gyros. <br>
-                Kedvenc dolgaim a programozás, és az animálás.
-            </nav>
-            <br>
-            <br>
-            <button class="button button2" onclick="function1()">Youtube</button>
-        <button class="button button2" onclick="function2()">Github</button>
-        <br>
-        <button class="button button2" onclick="function3()">Itch.io</button>
-        <button class="button button2" onclick="function4()">Spigotmc</button>
-        </section>
-        <footer>© 2023 Noel</footer>
-    
+        <header class="headera">
+            Welcome to my website!
+        </header>
+
+        <a class="button2000" href="#info">More</a>
+        <!--<div>
+            Hello! I'm from hungary i'm a 15 year old student<br>
+            who likes programming, my favourite food is gyros.<br>
+            I have a youtube channel sometimes i make videos.<br>
+        </div>-->
+    </section>
+
+    <section class="par" id="info">
+        <header>
+            Hello!
+        </header>
+        <nav>
+            Hello! I'm from hungary i'm a 15 year old student<br>
+            who likes programming, my favourite food is gyros.<br>
+            I have a youtube channel sometimes i make videos.<br>
+        </nav>
+    </section>
+    <script src="index.js"></script>
+    <footer>© 2023 Noel</footer>
 </body>
-<script src="index.js"></script>
 </html>
