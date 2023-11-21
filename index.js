@@ -1,12 +1,15 @@
-function function1() {
-    window.open("https://www.youtube.com/channel/UCDvFN5O8vBUY41sigmuho5Q")
+function functionimage() {
+    document.location.href = "index.html"
 }
-function function2() {
-    window.open("https://github.com/noel560")
+
+function functionhome() {
+    document.location.href = "index.html"
 }
-function function3() {
-    window.open("https://noel54.itch.io/")
+
+function functioncontact() {
+    document.location.href = "pages/contact/contact.html"
 }
-function function4() {
-    window.open("https://www.spigotmc.org/members/noel071554.1232082/")
+
+function functiongames() {
+    document.location.href = "pages/games/games.html"
 }
