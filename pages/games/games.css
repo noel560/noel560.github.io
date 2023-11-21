@@ -1,17 +1,12 @@
 body {
     /*background-color: rgb(98, 98, 98);*/
-    background-image: url(imgs/39632.jpg);
+    background-image: url(/imgs/39632.jpg);
     background-size: cover;
     color: white;
 }
 
 ::-webkit-scrollbar {
     display: none;
-}
-
-h1 {
-    font-family: Arial;
-    font-size: 50px;
 }
 
 .button {
@@ -79,8 +74,8 @@ section header {
     position: relative;
 }
 
-.headera {
-    margin-top: 150px;
+.games {
+    margin-top: 10px;
 }
 
 section div {
@@ -92,60 +87,4 @@ section div {
     flex-direction: column;
     align-items: center;
     margin: 10px 0 0 0;
-}
-
-section .button2000 {
-    font-family: 'Arial';
-    font-size: 24px;
-    color: #151D21;
-    background: #ffffff;
-    display: inline-flex;
-    padding: 6px;
-    margin-top: 30px;
-    margin-right: 5%;
-    margin-left: 5%;
-    border: none;
-    border-radius: 5px;
-}
-
-section .button2000:hover {
-    background: white;
-    font-size: 26px;
-    margin-top: 29px;
-}
-
-@media screen and (max-width: 600px) {
-    li {
-        font-size: 12px;
-    }
-
-    section nav {
-        font-size: 14px;
-        line-height: 26px;
-    }
-
-    section .button2000 {
-        font-size: 12px;
-    }
-
-    section .button2000:hover {
-        background: white;
-        font-size: 14px;
-        margin-top: 29px;
-    }
-}
-
-.par {
-    margin-top: 500px;
-    height: 650px;
-}
-
-section nav {
-    font-family: 'Arial';
-    font-size: 36px;
-    line-height: 55px;
-    text-align: left;
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
 }

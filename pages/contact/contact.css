@@ -1,17 +1,12 @@
 body {
     /*background-color: rgb(98, 98, 98);*/
-    background-image: url(imgs/39632.jpg);
+    background-image: url(/imgs/39632.jpg);
     background-size: cover;
     color: white;
 }
 
 ::-webkit-scrollbar {
     display: none;
-}
-
-h1 {
-    font-family: Arial;
-    font-size: 50px;
 }
 
 .button {
@@ -65,6 +60,34 @@ footer {
     padding: 10px;
 }
 
+.features {
+    padding: 8%;
+    clear: both;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.features figure {
+    display: inline-block;
+    width: auto;
+    margin: auto;
+    padding: 25px;
+    margin: 2px;
+    position: relative;
+    top: -200px;
+}
+
+.features figure img {
+	border-radius: 50%;
+	width: 75px;
+	height: 75px;
+}
+
+figure img:hover {
+    filter: brightness(0.7);
+}
+
 section {
     text-align: center;
     padding: 6%;
@@ -79,8 +102,8 @@ section header {
     position: relative;
 }
 
-.headera {
-    margin-top: 150px;
+.contact {
+    margin-top: 10px;
 }
 
 section div {
@@ -94,58 +117,35 @@ section div {
     margin: 10px 0 0 0;
 }
 
-section .button2000 {
-    font-family: 'Arial';
-    font-size: 24px;
-    color: #151D21;
-    background: #ffffff;
-    display: inline-flex;
-    padding: 6px;
-    margin-top: 30px;
-    margin-right: 5%;
-    margin-left: 5%;
-    border: none;
-    border-radius: 5px;
+/*.yt{
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
 }
 
-section .button2000:hover {
-    background: white;
-    font-size: 26px;
-    margin-top: 29px;
+.dc{
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
 }
 
-@media screen and (max-width: 600px) {
-    li {
-        font-size: 12px;
-    }
-
-    section nav {
-        font-size: 14px;
-        line-height: 26px;
-    }
-
-    section .button2000 {
-        font-size: 12px;
-    }
-
-    section .button2000:hover {
-        background: white;
-        font-size: 14px;
-        margin-top: 29px;
-    }
+.tw{
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
 }
 
-.par {
-    margin-top: 500px;
-    height: 650px;
+.mail{
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
 }
 
-section nav {
-    font-family: 'Arial';
-    font-size: 36px;
-    line-height: 55px;
-    text-align: left;
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
+figure img {
+    position: relative;
+    margin: 10px 0 0 0;
 }
+
+.thingys{
+    text-align: center;
+}*/
