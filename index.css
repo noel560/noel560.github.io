@@ -1,12 +1,151 @@
-body{
-  background-color: black;
-}
-p {
+body {
+    /*background-color: rgb(98, 98, 98);*/
+    background-image: url(imgs/39632.jpg);
+    background-size: cover;
     color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+h1 {
     font-family: Arial;
+    font-size: 50px;
+}
+
+.button {
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: rgb(48, 48, 48); 
+    color: rgb(255, 255, 255); 
+    border: 2px solid #000000;
+}
+  
+.button1:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+footer {
+    font-family: Arial;
+    text-align: center;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: 0pt;
+    color: white;
+}
+
+.kamurokar{
+    float: right;
+    text-align: right;
+    border-radius: 25px;
+    font-family: Arial;
+    margin: 10px;
+    padding: 10px;
+}
+
+.aimg{
+    /*position: fixed; */
+    width: 100px;
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px;
+}
+
+section {
+    text-align: center;
+    padding: 6%;
+}
+
+section header {
+    margin-top: 0px;
+    font-family: 'Arial';
     font-size: 60px;
-  }
+    margin-bottom: 5px;
+    text-align: center;
+    position: relative;
+}
+
+.headera {
+    margin-top: 150px;
+}
+
+section div {
+    font-family: 'Arial';
+    font-size: 30px;
+    line-height: 55px;
+    text-align: center;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0 0 0;
+}
+
+section .button2000 {
+    font-family: 'Arial';
+    font-size: 24px;
+    color: #151D21;
+    background: #ffffff;
+    display: inline-flex;
+    padding: 6px;
+    margin-top: 30px;
+    margin-right: 5%;
+    margin-left: 5%;
+    border: none;
+    border-radius: 5px;
+}
+
+section .button2000:hover {
+    background: white;
+    font-size: 26px;
+    margin-top: 29px;
+}
+
+@media screen and (max-width: 600px) {
+    li {
+        font-size: 12px;
+    }
+
+    section nav {
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    section .button2000 {
+        font-size: 12px;
+    }
+
+    section .button2000:hover {
+        background: white;
+        font-size: 14px;
+        margin-top: 29px;
+    }
+}
+
+.par {
+    margin-top: 500px;
+    height: 650px;
+}
+
+section nav {
+    font-family: 'Arial';
+    font-size: 36px;
+    line-height: 55px;
+    text-align: left;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
