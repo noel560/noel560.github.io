@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noel's website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Noel's Website</h1>
+            <nav>
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="mailto:noelbussiness@gmail.com">Contact</a></li>
+                    <!--<li><a href="/pages/projects/projects.html">My Projects</a></li>-->
+                    <li><a href="/pages/discordbot/discordbot.html">Discord Bot</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="home">
+            <div class="center-text">
+                <h2>Hello!</h2>
+                <p class="large-text">I'm from Hungary, I'm a 15 year old student</p>
+                <p class="large-text">who likes programming, my favourite food is pizza.</p>
+                <p class="large-text">I usually play games or code in my freetime.</p>
+            </div>
+            <div class="social-media">
+                <figure>
+                    <a href="https://www.youtube.com/channel/UCDvFN5O8vBUY41sigmuho5Q" target="_blank"><img src="/img/youtube.png" alt="Youtube"></a>
+                </figure>
+                <figure>
+                    <a target="_blank">
+                        <div class="discord-container">
+                            <img src="/img/discord.png" alt="Discord" class="dcimg" onclick="discordclick()">
+                            <div class="overlay" onclick="discordclick()">noel54_</div>
+                        </div>
+                    </a>
+                </figure>
+                <figure>
+                    <a href="https://twitter.com/Noel54_" target="_blank"><img src="/img/twitter.png" alt="Twitter"></a>
+                </figure>
+                <figure>
+                    <a href="mailto: noelbussiness@gmail.com" target="_blank"><img src="/img/mail.png" alt="Mail"></a>
+                </figure>
+                <figure>
+                    <a href="https://github.com/noel560" target="_blank"><img src="/img/images.jpg" alt="Mail"></a>
+                </figure>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Noel's Website | Designed with <i class="fas fa-heart"></i> by Noel</p>
+        </div>
+    </footer>
+    <script src="about.js"></script>
+</body>
+</html>

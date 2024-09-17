@@ -4,39 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Noel's website</title>
-    <link rel="shortcut icon" href="imgs/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <img src="imgs/icon.png" class="aimg" onclick="functionimage()">
-    <div class="button button1 kamurokar" onclick="functioncontact()">CONTACT</div>
-    <div class="button button1 kamurokar" onclick="functiongames()">GAMES</div>
-    <div class="button button1 kamurokar" onclick="functionhome()">HOME</div>
-
-    <section>
-        <header class="headera">
-            Welcome to my website!
-        </header>
-
-        <a class="button2000" href="#info">More</a>
-        <!--<div>
-            Hello! I'm from hungary i'm a 15 year old student<br>
-            who likes programming, my favourite food is gyros.<br>
-            I have a youtube channel sometimes i make videos.<br>
-        </div>-->
-    </section>
-
-    <section class="par" id="info">
-        <header>
-            Hello!
-        </header>
-        <nav>
-            Hello! I'm from hungary i'm a 15 year old student<br>
-            who likes programming, my favourite food is gyros.<br>
-            I have a youtube channel sometimes i make videos.<br>
-        </nav>
-    </section>
+    <header>
+        <div class="container">
+            <h1>Noel's Website</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="pages/about/about.html">About</a></li>
+                    <li><a href="mailto:noelbussiness@gmail.com">Contact</a></li>
+                    <!--<li><a href="pages/projects/projects.html">My Projects</a></li>-->
+                    <li><a href="pages/discordbot/discordbot.html">Discord Bot</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!--<section id="home">
+            <div class="center-text">
+                <h2>Hello!</h2>
+                <p class="large-text">I'm from Hungary, I'm a 15 year old student</p>
+                <p class="large-text">who likes programming, my favourite food is gyros.</p>
+                <p class="large-text">I usually play Valorant or Euro Truck Simulator 2.</p>
+            </div>
+        </section>-->
+        <!--<section id="about">
+            <div class="container">
+                <h2>About</h2>
+                <p>This is the about section. Here you can learn more about us.</p>
+                <a href="#contact" class="btn">Contact Us</a>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <h2>Contact</h2>
+                <p>This is the contact section. Get in touch with us!</p>
+                <a href="mailto:noelbussiness@gmail.com" class="btn">Send Email</a>
+            </div>
+        </section>-->
+        <img src="/img/fish.gif">
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Noel's Website | Designed with <i class="fas fa-heart"></i> by Noel</p>
+        </div>
+    </footer>
     <script src="index.js"></script>
-    <footer>© 2023 Noel</footer>
 </body>
 </html>
